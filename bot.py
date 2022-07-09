@@ -134,8 +134,6 @@ async def messages_control(c: Client, m: Message):
 						await msgcheck.edit("Credenciales incorrectas❌")
 						break
 
-def main():
-    bot_token = os.environ.get('bot_token')
 
 if __name__ == "__main__":
 	print("Bot iniciado")
